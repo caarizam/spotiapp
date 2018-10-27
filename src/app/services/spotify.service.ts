@@ -15,7 +15,7 @@ export class SpotifyService {
     let url:string = `https://api.spotify.com/v1/search?query=${textToSearch}&type=artist&limit=30`;
 
     let headers = new HttpHeaders({
-      'authorization': 'Bearer BQC1Tl6VB3-vBfeJYv-qjD9bh6H0ndvXBeRJG-I7w4Utzn3TU9Gx77kqW3TN5gnwD-gMqFikFj1lJiQi0E4'
+      'authorization': 'Bearer fff'
     })
 
     return this.http.get(url, {headers:headers})
